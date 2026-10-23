@@ -1,19 +1,20 @@
 services:
-  # Backend API (FastAPI + Docker)
+  # Backend API (FastAPI + Docker on Free Tier)
   - type: web
     name: roommate-matching-api
     runtime: docker
+    plan: free
     dockerfilePath: ./backend/Dockerfile
     healthCheckPath: /health
     envVars:
       - key: DATABASE_URL
         sync: false
       - key: CORS_ORIGINS
-        sync: false
+        value: "*"
       - key: ARTIFACT_DIR
         value: /app/ml/artifacts
 
-  # Frontend Web App (React + Vite Static Site)
+  # Frontend Web App (React + Vite Static Site — Free Tier)
   - type: web
     name: roommate-matching-frontend
     runtime: static
