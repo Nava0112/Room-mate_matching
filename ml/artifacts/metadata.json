@@ -1,0 +1,16 @@
+{
+  "random_seed": 42,
+  "dataset_source": "huggingface",
+  "dataset_url": "https://huggingface.co/datasets/cive202/Lifestyle_Preferences_Dataset/resolve/main/roommate_dataset.csv",
+  "rows": 10000,
+  "feature_count": 82,
+  "pair_feature_count": 164,
+  "n_clusters": 8,
+  "metrics": {
+    "validation_pairs": 1600,
+    "validation_mae": 4.692001668001869,
+    "validation_r2": 0.6922870724297867
+  },
+  "score_scale": "0-100",
+  "methodology": "RandomForest learns the notebook rule_based_compatibility labels; KMeans and cosine are unsupervised alternatives."
+}

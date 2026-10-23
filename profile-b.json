@@ -1,0 +1,20 @@
+{
+  "age": 23,
+  "gender": "female",
+  "occupation": "Student",
+  "location": "Kathmandu",
+  "budget_min": 10000,
+  "budget_max": 14000,
+  "sleep_schedule": "early_bird",
+  "smoking": "non_smoker",
+  "drinking": "non_drinker",
+  "cleanliness": 4,
+  "noise_level": 2,
+  "guests_preference": "sometimes",
+  "food_preference": "vegetarian",
+  "pets": "okay_with_pets",
+  "study_habit": "quiet",
+  "interests": "Book Club|Cooking|Language",
+  "gender_preference": "any",
+  "room_type_preference": "any"
+}
